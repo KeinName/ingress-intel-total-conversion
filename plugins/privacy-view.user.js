@@ -53,6 +53,10 @@ window.plugin.privacyView.setup = function() {
   var privacy_button_width = 135;
   $('head').append('<style>' +
     '.privacy_active #playerstat,' +
+    '.privacy_active #gamestat,' +
+    '.privacy_active #portal_highlight_select,' +               
+    '.privacy_active #updatestatus,' +
+    '.privacy_active #toolbox,' +
     '.privacy_active #chatinput,' +
     '.privacy_active #chatcontrols,' +
     '.privacy_active #chat { display: none; }' +
